@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Időjárás</title>
 </head>
 <body>
  <a class="weatherwidget-io" href="https://forecast7.com/hu/47d3919d12/district-xxiii/" data-label_1="Soroksár" data-label_2="Carlo Lovassport Egyesület" data-font="Roboto" data-icons="Climacons Animated" data-days="5" data-theme="gray" >Soroksár Carlo Lovassport Egyesület</a>
