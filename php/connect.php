@@ -1,0 +1,4 @@
+<?php
+//MYSQL kapcsolat kialakítása
+
+?>
