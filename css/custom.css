@@ -8,6 +8,10 @@ html body {
 
  .jumbotron {
  font-family: 'Lobster', cursive;
+ background-image: url(../img/376967.jpg);
+ background-position: center;
+ background-size: cover;
+ color:aliceblue;
  }
 
 .navbar .navbar-brand a {
