@@ -8,11 +8,17 @@ html body {
 
  .jumbotron {
  font-family: 'Lobster', cursive;
- background-image: url(../img/376967.jpg);
+ background-image: url(../img/680154.jpg);
  background-position: center;
  background-size: cover;
  color:aliceblue;
  }
+
+.navbar{
+  margin: 0;
+  padding: 15px;
+  font-size: large;
+}
 
 .navbar .navbar-brand a {
   font-family: 'Lobster', cursive;
@@ -20,15 +26,11 @@ html body {
 }
 .navbar-brand {
   font-family: 'Lobster', cursive;
-
-
 }
 
 .menubar {
 
   font-family: 'Lobster', cursive;
-
-
 }
 
 
