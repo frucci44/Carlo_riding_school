@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/custom.css" type="text/css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+ 
+
     <title>Carlo Lovarda</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark
- bg-dark">
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark menubar">
 <a class="navbar-brand" href="/">
-      <img src="/img/logo/142785894_343929243294051_199158062729832320_n.jpg" width="55" height="35" class="d-inline-block align-top" alt="">
+      <img src="img/logo/142785894_343929243294051_199158062729832320_n.jpg" width="55" height="35" class="d-inline-block align-top" alt="">
       Carlo Lovarda </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+  
+  
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
@@ -48,6 +55,12 @@
     </form>
   </div>
 </nav>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1>Egy Ló Egy Élet Egy Szerelem</h1>
+    <p class="lead"></p>
+  </div>
+</div>
     
 </body>
 </html>
