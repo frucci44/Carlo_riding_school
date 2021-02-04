@@ -15,12 +15,25 @@
 <body>
 
     <?php include 'php/menu.php'; ?>
-
-    <div class="d-flex">
-        <div class="p-2 bg-info flex-fill"></div>
-        <div class="p-2 bg-warning flex-fill"></div>
-        <div class="p-2 bg-primary flex-fill"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="box">
+                    <div class="box-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quam et placeat porro itaque nulla voluptates nostrum officia? Architecto nihil laudantium tempore voluptatibus accusantium doloremque exercitationem aut quos, animi possimus.</p>
+                    </div>
+                </div>          
+            </div>
+            <div class="col">
+                <div class="box">
+                    <div class="box-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quam et placeat porro itaque nulla voluptates nostrum officia? Architecto nihil laudantium tempore voluptatibus accusantium doloremque exercitationem aut quos, animi possimus.</p>
+                    </div>
+                </div>          
+            </div>
+        </div>
     </div>
 </body>
+
 
 </html>

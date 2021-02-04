@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
   <link rel="stylesheet" href="css/custom.css" type="text/css">
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
@@ -59,7 +59,7 @@
   </nav>
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <h1>Egy Ló Egy Élet Egy Szerelem</h1>
+      <h1 class="glow">Egy Ló Egy Élet Egy Szerelem</h1>
       <p class="lead"></p>
     </div>
   </div>
