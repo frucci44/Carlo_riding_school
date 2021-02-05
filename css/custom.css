@@ -29,6 +29,14 @@ html body {
 
 
 
+.box-contect{
+    background-image: url(../img/szilvi1.jpg);
+}
+
+.carousel div:nth-child(2){
+  background-image: url(../img/szilvi2.jpg);
+}
+
  
 
 
