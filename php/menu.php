@@ -19,7 +19,7 @@
 
   <nav class="navbar navbar-expand-md navbar-dark bg-dark menubar">
     <a class="navbar-brand" href="/">
-      <img src="img/logo/142785894_343929243294051_199158062729832320_n.jpg" width="55" height="35" class="d-inline-block align-top" alt="">
+      <img src="/Carlo_riding_school/img/logo/142785894_343929243294051_199158062729832320_n.jpg" width="55" height="35" class="d-inline-block align-top" alt="">
       Carlo Lovarda </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -30,7 +30,7 @@
     <div class="collapse navbar-collapse justify-collapse-between" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active nav">
-          <a class="nav-link" href="#">Főoldal <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/">Főoldal <span class="sr-only">(current)</span></a>
         </li>
 
         <li class="nav-item dropdown">
@@ -38,7 +38,7 @@
             Bemutatkozás
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Galéria</a>
+            <a class="dropdown-item" href="../Carlo_riding_school/php/gallery.php">Galéria</a>
             <a class="dropdown-item" href="#">Lovaink</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Edzőink</a>
