@@ -2,33 +2,64 @@
 
 
 html body {
-  background-color: whitesmoke;
+  background-color: antiquewhite;
 
 }
 
  .jumbotron {
  font-family: 'Lobster', cursive;
+ background-image: url(../img/680154.jpg);
+ background-position: center;
+ background-size: cover;
+ color: burlywood;
  }
+
+.navbar{
+  margin: 0;
+  padding: 15px;
+  font-size: 23px;
+}
 
 .navbar .navbar-brand a {
   font-family: 'Lobster', cursive;
+  padding: 1rem 0;
+  display: block;
+  text-decoration: none;
+  font-size: 23px;
 
 }
 .navbar-brand {
   font-family: 'Lobster', cursive;
-
-
+  font-size: 23px;
 }
 
 .menubar {
 
   font-family: 'Lobster', cursive;
-
-
 }
 
+.box{
+  background: white; box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
 
+.box .box-content{
+  padding: 20px;
+}
 
+.box .box-content p {
+  line-height: 1.6;
+}
+
+.glow {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+<<<<<<< HEAD
 .box-contect{
     background-image: url(../img/szilvi1.jpg);
 }
@@ -38,5 +69,16 @@ html body {
 }
 
  
+=======
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #F0FFF0, 0 0 60px #F0FFF0, 0 0 70px #F0FFF0;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #000000, 0 0 40px #000000, 0 0 50px #000000, 0 0 60px #F5FFFA, 0 0 70px #F5FFFA, 0 0 80px #F5FFFA;
+  }
+}
+>>>>>>> 2253bfc88039ee63ab1761cf7877482a32f5f6cd
 
 

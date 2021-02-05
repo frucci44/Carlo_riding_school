@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
     <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/custom.css" type="text/css">
     <title>Carlo Lovarda</title>
 </head>
+
 <body>
 
-<?php include 'menu.php'; ?>
-
-<div class="d-flex">
-<div class="p-2 bg-info flex-fill"></div>
-<div class="p-2 bg-warning flex-fill"></div>
-<div class="p-2 bg-primary flex-fill"></div>
-</div>
-<iframe src="//idojaras.ournet.hu/widget/widget_frame?id=3054643&days=5&w=200" scrolling="no" frameborder="0" style="border:none;overflow:hidden;height:243px;width:200px;" allowTransparency="true"></iframe>
-<noscript><a href="http://idojaras.ournet.hu">ournet.hu</a></noscript>
-    
-=======
-    <title>Carlo</title>
-</head>
-<body>
-
-<!-- Időjárás applikáció alulra -->
-<iframe src="//idojaras.ournet.hu/widget/widget_frame?id=3054643&days=5&w=200" scrolling="no" frameborder="0" style="border:none;overflow:hidden;height:243px;width:200px;" allowTransparency="true"></iframe>
-<noscript><a href="http://idojaras.ournet.hu">ournet.hu</a></noscript>
-
->>>>>>> 4d77042dfbe76bb3e607ad0fe46d88d359c54f22
+    <?php include 'php/menu.php'; ?>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="box">
+                    <div class="box-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quam et placeat porro itaque nulla voluptates nostrum officia? Architecto nihil laudantium tempore voluptatibus accusantium doloremque exercitationem aut quos, animi possimus.</p>
+                    </div>
+                </div>          
+            </div>
+            <div class="col">
+                <div class="box">
+                    <div class="box-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quam et placeat porro itaque nulla voluptates nostrum officia? Architecto nihil laudantium tempore voluptatibus accusantium doloremque exercitationem aut quos, animi possimus.</p>
+                    </div>
+                </div>          
+            </div>
+        </div>
+    </div>
 </body>
+
+
 </html>
