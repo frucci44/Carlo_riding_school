@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/custom.css" type="text/css">
-    <title>Carlo Lovarda</title>
+    <title>Carlo  Lovarda</title>
 </head>
 
 <body>
