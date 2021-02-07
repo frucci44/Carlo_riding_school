@@ -1,0 +1,251 @@
+CRITICAL - 2021-01-23 15:04:45 --> Too few arguments to function view(), 0 passed in /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php on line 13 and at least 1 expected
+#0 /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php(13): view()
+#1 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#2 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/codeig/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-23 15:05:06 --> Too few arguments to function view(), 0 passed in /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php on line 13 and at least 1 expected
+#0 /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php(13): view()
+#1 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#2 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/codeig/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-23 15:05:32 --> Too few arguments to function view(), 0 passed in /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php on line 13 and at least 1 expected
+#0 /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php(13): view()
+#1 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#2 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/codeig/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-23 15:30:33 --> Call to a member function findAll() on null
+#0 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#1 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/codeig/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-23 15:35:06 --> Call to a member function findAll() on null
+#0 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#1 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/codeig/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-23 15:35:07 --> Call to a member function findAll() on null
+#0 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#1 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/codeig/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-23 15:37:38 --> Call to a member function findAll() on null
+#0 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#1 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/codeig/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-23 15:38:42 --> Unable to connect to the database.
+#0 /Applications/MAMP/htdocs/codeig/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/codeig/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/codeig/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php(15): CodeIgniter\Model->findAll()
+#4 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#5 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/codeig/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 15:42:02 --> Unable to connect to the database.
+#0 /Applications/MAMP/htdocs/codeig/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/codeig/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/codeig/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php(15): CodeIgniter\Model->findAll()
+#4 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#5 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/codeig/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 15:42:10 --> Unable to connect to the database.
+#0 /Applications/MAMP/htdocs/codeig/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/codeig/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/codeig/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php(15): CodeIgniter\Model->findAll()
+#4 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#5 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/codeig/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 15:46:59 --> Unable to connect to the database.
+#0 /Applications/MAMP/htdocs/codeig/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/codeig/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/codeig/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php(15): CodeIgniter\Model->findAll()
+#4 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#5 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/codeig/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 15:47:02 --> Unable to connect to the database.
+#0 /Applications/MAMP/htdocs/codeig/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/codeig/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/codeig/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php(15): CodeIgniter\Model->findAll()
+#4 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#5 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/codeig/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 15:47:18 --> Unable to connect to the database.
+#0 /Applications/MAMP/htdocs/codeig/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/codeig/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/codeig/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php(15): CodeIgniter\Model->findAll()
+#4 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#5 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/codeig/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 15:47:19 --> Unable to connect to the database.
+#0 /Applications/MAMP/htdocs/codeig/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/codeig/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/codeig/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php(15): CodeIgniter\Model->findAll()
+#4 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#5 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/codeig/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 15:49:21 --> Unable to connect to the database.
+#0 /Applications/MAMP/htdocs/codeig/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/codeig/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/codeig/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php(15): CodeIgniter\Model->findAll()
+#4 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#5 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/codeig/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 15:49:23 --> Unable to connect to the database.
+#0 /Applications/MAMP/htdocs/codeig/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/codeig/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/codeig/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php(15): CodeIgniter\Model->findAll()
+#4 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#5 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/codeig/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 15:50:27 --> Class 'App\Controllers\Database' not found
+#0 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#1 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/codeig/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-23 15:50:53 --> Class 'App\Controllers\Database' not found
+#0 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#1 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/codeig/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-23 15:51:08 --> Class 'App\Controllers\Database' not found
+#0 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#1 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Applications/MAMP/htdocs/codeig/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-23 15:51:20 --> Unable to connect to the database.
+#0 /Applications/MAMP/htdocs/codeig/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/codeig/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/codeig/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php(15): CodeIgniter\Model->findAll()
+#4 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#5 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/codeig/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 15:51:40 --> Unable to connect to the database.
+#0 /Applications/MAMP/htdocs/codeig/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/codeig/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/codeig/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php(15): CodeIgniter\Model->findAll()
+#4 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#5 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/codeig/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 15:56:23 --> Unable to connect to the database.
+#0 /Applications/MAMP/htdocs/codeig/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/codeig/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/codeig/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php(15): CodeIgniter\Model->findAll()
+#4 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#5 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/codeig/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 15:56:27 --> Unable to connect to the database.
+#0 /Applications/MAMP/htdocs/codeig/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/codeig/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/codeig/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php(15): CodeIgniter\Model->findAll()
+#4 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#5 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/codeig/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 15:56:28 --> Unable to connect to the database.
+#0 /Applications/MAMP/htdocs/codeig/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/codeig/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/codeig/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php(15): CodeIgniter\Model->findAll()
+#4 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#5 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/codeig/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 16:00:21 --> Unable to connect to the database.
+#0 /Applications/MAMP/htdocs/codeig/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/codeig/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/codeig/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php(15): CodeIgniter\Model->findAll()
+#4 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#5 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/codeig/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 16:00:26 --> Unable to connect to the database.
+#0 /Applications/MAMP/htdocs/codeig/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/codeig/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Applications/MAMP/htdocs/codeig/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php(15): CodeIgniter\Model->findAll()
+#4 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#5 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/codeig/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 16:03:08 --> Class '\App\Entities\OktatasiModEntity' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-23 16:03:35 --> Class '\App\EntityMaps\OktatasiModEntity' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-23 16:04:40 --> Class '\App\Entities\OktatasiModEntity' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-01-23 16:12:18 --> Use of undefined constant i - assumed 'i' (this will throw an Error in a future version of PHP)
+#0 /Applications/MAMP/htdocs/codeig/app/Views/home/something.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/Applications/M...', 4, Array)
+#1 /Applications/MAMP/htdocs/codeig/system/View/View.php(246): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/codeig/system/Common.php(1119): CodeIgniter\View\View->render('home/something', Array, true)
+#3 /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php(18): view('home/something', Array)
+#4 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#5 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/codeig/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-23 16:12:49 --> Call to undefined function len()
+#0 /Applications/MAMP/htdocs/codeig/system/View/View.php(246): include()
+#1 /Applications/MAMP/htdocs/codeig/system/Common.php(1119): CodeIgniter\View\View->render('home/something', Array, true)
+#2 /Applications/MAMP/htdocs/codeig/app/Controllers/Home.php(18): view('home/something', Array)
+#3 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(918): App\Controllers\Home->something()
+#4 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Applications/MAMP/htdocs/codeig/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/codeig/public/index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
