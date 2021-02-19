@@ -1,71 +1,73 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
+﻿@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+
+html body {
+    background-color: antiquewhite;
 }
 
-/* Provide sufficient contrast against white background */
-a {
-  color: #0366d6;
+.jumbotron {
+    font-family: 'Lobster', cursive;
+    background-image: url(../img/680154.jpg);
+    background-position: center;
+    background-size: cover;
+    color: burlywood;
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+footer {
+    position: fixed;
+    bottom: 0;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-/* Sticky footer styles
--------------------------------------------------- */
 html {
-  font-size: 14px;
-}
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    height: 100%;
 }
 
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+.navbar {
+    margin: 0;
+    padding: 15px;
+    font-size: 23px;
 }
 
-button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
+    .navbar .navbar-brand a {
+        font-family: 'Lobster', cursive;
+        padding: 1rem 0;
+        display: block;
+        text-decoration: none;
+        font-size: 23px;
+    }
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 23px;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
+.menubar {
+    font-family: 'Lobster', cursive;
 }
 
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+.box {
+    background: white;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+
+    .box .box-content {
+        padding: 20px;
+    }
+
+        .box .box-content p {
+            line-height: 1.6;
+        }
+
+.glow {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.fblogo {
+    height: 30px;
+    margin-left: 50px;
 }
