@@ -1,10 +1,10 @@
-﻿{
+{
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:31825",
-      "sslPort": 44394
+      "applicationUrl": "http://localhost:27546",
+      "sslPort": 44302
     }
   },
   "profiles": {
@@ -15,11 +15,10 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "CarloWeb": {
+    "CarloWebApp": {
       "commandName": "Project",
-      "dotnetRunMessages": "true",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "applicationUrl": "https://localhost:32201;http://localhost:11971",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
