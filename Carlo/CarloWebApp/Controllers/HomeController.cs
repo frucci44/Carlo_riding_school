@@ -23,6 +23,16 @@ namespace CarloWebApp.Controllers
             return View();
         }
 
+        public IActionResult Galeria()
+        {
+            return View();
+        }
+
+        public IActionResult Lovaink()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
