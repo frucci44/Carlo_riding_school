@@ -35,21 +35,21 @@
                             <a class="dropdown-item" asp-controller="Home" asp-action="Galeria">Galéria</a>
                             <a class="dropdown-item" asp-action="Lovaink">Lovaink</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Edzőink</a>
+                            <a class="dropdown-item" asp-controller="Home" asp-action="Edzoink"> Edzőink</a>
                         </div>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item"> 
                         <a class="nav-link disabled" href="#">Szolgáltatásaink</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Térkép</a>
+                        <a class="nav-link disabled" asp-controller="Home"  asp-action="Terkep">Térkép</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link btn btn-outline-success" asp-area="Identity" asp-page="/Account/Register">REGISZTRÁCIÓ</a>
                     </li>
                 </ul>
             </div>
-        </nav>
+        </nav> 
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
                 <h1 class="glow">Egy Ló Egy Élet Egy Szerelem</h1>
@@ -67,7 +67,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2021 - Ez itt a Carlo lovasiskola
+            &copy; 2021 - Carlo lovarda
             <a href="https://facebook.com" target="_blank"><img class="fblogo" src="/img/facebook_logo.png"></a>
 
         </div>

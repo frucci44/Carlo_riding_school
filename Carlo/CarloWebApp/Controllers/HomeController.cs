@@ -32,6 +32,15 @@ namespace CarloWebApp.Controllers
         {
             return View();
         }
+        public IActionResult Edzoink()
+        {
+            return View();
+        }
+        public IActionResult Terkep()
+         
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
