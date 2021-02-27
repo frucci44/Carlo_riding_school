@@ -1,3 +1,3 @@
-# SPeCtral_X_FlowerPage
+# Carlo lovassport egyesület
 
 Saját fejlesztésű oldal kérésre.

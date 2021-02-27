@@ -1,15 +1,13 @@
 <?php
-$mappa = "php/";
-
-
+    $mappa = "php/";
 ?>
 <?php include "php/_head.php" ?>
+<?php include "php/menu.php" ?>
 
     <div class="container">
-        <div>
-            <?php include "php/menu.php" ?>
-        </div>
-
+        <a href="https://www.facebook.com/CarloLovassportEgyesulet">
+        <span class="fab fa-facebook-square"></span>
+    </a>
 
         <div class="header">
             <h1>Carlo Lovassport Egyesület</h1>
@@ -21,6 +19,6 @@ $mappa = "php/";
             </p>
         </div>
     </div>
-</body>
 
+</body>
 </html>

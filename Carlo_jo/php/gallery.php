@@ -1,6 +1,5 @@
 <?php include "_head.php" ?>
-
-    <?php include 'menu.php'; ?>
+<?php include 'menu.php'; ?>
 
     <div class="container">
         <div class="carousel usztatas">
