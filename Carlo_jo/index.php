@@ -1,19 +1,13 @@
-<!DOCTYPE html>
-<html lang="hu">
+<?php
+$mappa = "php/";
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/menu.css">
-    <title>Carlo Lovassport Egyesület</title>
-</head>
 
-<body>
+?>
+<?php include "php/_head.php" ?>
+
     <div class="container">
         <div>
-            <?php include "./php/menu.php" ?>
+            <?php include "php/menu.php" ?>
         </div>
 
 
