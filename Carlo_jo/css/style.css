@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(../fonts/Roboto-Light.ttf) format(ttf);
+}
+
+body {
+    background-color: mistyrose;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    border: 1px solid red;
+    padding: 15px; 
+}
+
+.left_box{
+    float: left;
+    width: 60%;
+    background-color: brown;
+}
+
+.right_box{
+    float:right;
+    width: 40%;
+    background-color: chartreuse;
+}
+
+.container{
+    padding: 0;
+    margin: auto;  
+}
+
+h2{
+    font-family: 'Italianno', cursive;
+    font-size: 70px;
+}
+
+.header {
+    border: none;
+    padding: 15px;
+    text-align: center;
+}
+
+.right_box table, td, th {
+    border: 1px solid black;
+}
+  
+.right_box table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+iframe {
+    max-width: 100%;
+    height: auto;
+    width: auto; 
+    vertical-align: middle;
+}
