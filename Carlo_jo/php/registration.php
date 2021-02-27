@@ -1,12 +1,9 @@
-
 <?php include "_head.php" ?>
+<?php include "menu.php"; ?>
 
-    <div>
-        <?php include "menu.php"; ?>
-    </div>
     <div>
         <form action="action_page.php">
-            <div class="container">
+            <div cl ass="container">
 
                 <h1>Regisztráció</h1>
                 <p>Kérem minden részt töltsön ki.</p>
