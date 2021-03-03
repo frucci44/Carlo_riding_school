@@ -3,6 +3,29 @@
     src: url(../fonts/Roboto-Light.ttf) format(ttf);
 }
 
+header {
+    font-family: 'Lobster', cursive;
+    background-image: url(../img/680154.jpg);
+    background-position: center;
+    background-size: cover;
+    color: burlywood;
+    padding: 60px;
+    font-size: 30px;
+} 
+.neon {
+    color: #fff;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #0ff,
+      0 0 80px #0ff,
+      0 0 90px #0ff,
+      0 0 100px #0ff,
+      0 0 150px #0ff;
+  }
+
+
 body {
     background-color: mistyrose;
 }
@@ -12,11 +35,23 @@ a, a:hover, a:visited, a:active {
     text-decoration: none;
 }
 
+input:focus, button:focus, submit:focus {
+    outline: none !important;
+}
+
 .navbar-brand {
     font-family: 'Italianno', cursive !important;
-    font-size: 230%;
+    font-size: 150%;
     text-decoration: none;
 }
+
+@media (min-width: 500px) {
+    .navbar-brand {
+        font-size: 230%;
+    }
+}
+
+
 
 .navbar {
     background-color: darksalmon;
@@ -50,3 +85,10 @@ h2{
 .olControlAttribution {
     bottom: 0 !important;
 }
+
+.glow {
+  text-align: center;  
+  
+
+}
+

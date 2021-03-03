@@ -1,9 +1,23 @@
-<?php include "_head.php" ?>
-<?php include "menu.php"; ?>
+<!DOCTYPE html>
+<html lang="hu">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/registration.css">
+    <title>Carlo regisztráció</title>
+</head>
+
+<body>
+    <div>
+        <?php include "menu.php"; ?>
+    </div>
     <div>
         <form action="action_page.php">
-            <div cl ass="container">
+            <div class="container">
 
                 <h1>Regisztráció</h1>
                 <p>Kérem minden részt töltsön ki.</p>
